@@ -1,0 +1,105 @@
+.login-container {
+  font-family: Roboto;
+  display: flex;
+  min-height: 60vh;
+  flex-direction: column;
+  width: 100vw;
+  background: #131313;
+  padding: 24px;
+
+  @media screen and (min-width: 576px) {
+    background-image: url('https://res.cloudinary.com/dcyavhlbc/image/upload/v1708159290/netfilx_1_itf2vb.png');
+    padding: 4%;
+    margin: 0px;
+  }
+}
+
+.website-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+
+  @media screen and (min-width) {
+    min-width: 50px;
+  }
+}
+
+.website-logo {
+  max-width: 100px;
+
+  @media screen and (min-width: 576px) {
+    max-width: 130px;
+  }
+}
+
+.form-container {
+  @media screen and (min-width: 576px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 12% 12% 18%;
+    padding: 4% 20% 20% 20%;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 576px) {
+    background-color: #0c0b10;
+    width: 80%;
+    margin: 0% 60% 60% 60%;
+    opacity: 70%;
+    padding: 10%;
+    border-radius: 6px;
+  }
+}
+
+.heading {
+  color: #ffffff;
+
+  font-size: 100%;
+  align-self: center;
+  @media screen and (max-width: 576px) {
+    font-size: 10vw;
+    align-self: flex-start;
+
+    margin-top: 40%;
+  }
+}
+
+label {
+  margin-top: 6%;
+  margin-bottom: 3%;
+  font-weight: 400;
+  font-size: 4vw;
+  color: #ffffff;
+
+  @media screen and (min-width: 576px) {
+    font-size: 12px;
+  }
+}
+
+.input-cls {
+  background-color: #333333;
+  height: 3em;
+  border-radius: 6px;
+  width: 100%;
+  outline: none;
+  color: #ffffff;
+}
+
+.login-button {
+  background-color: #e50914;
+  color: #ffffff;
+  border-radius: 4px;
+  height: 3em;
+  margin-top: 6%;
+}
+
+.error-msg {
+  color: #dc2626;
+}
